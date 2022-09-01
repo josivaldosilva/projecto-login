@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projecto Tela de Login</title>
+</head>
+<body>
+    
+    <section class="main-content">
+        <div class="bg-img">
+           <!--Aqui vai a imagem via css-->
+        </div>
+        <div class="form">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+            <form action="#">
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                    <input type="password" name="senha" id="ipassword" placeholder="sua senha" required minlength="8" maxlength="30">
+                </div>
+                <div class="entrar">
+                    <input type="submit" value="Entrar">
+                </div>
+
+                <div class="forgot"><a href="#">Esqueci a senha <i class="fa-solid fa-envelope" id="envelope"></i></a></div>    
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
